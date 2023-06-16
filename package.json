@@ -12,5 +12,8 @@
   "devDependencies": {
     "@cypress/xpath": "^2.0.3",
     "cypress": "^12.14.0"
+  },
+  "dependencies": {
+    "browserstack-cypress-cli": "^1.22.1"
   }
 }
