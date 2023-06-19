@@ -1,6 +1,7 @@
 describe("localdemo", () => {
     it("localdemo", () => {
       cy.visit("http://127.0.0.1:5500/");
-      cy.xpath("//a[text()='Designers']").click();
+      cy.get('[href="#designers"]').click();
+      cy.get('[href="#contact"]').click();
     });
   });
